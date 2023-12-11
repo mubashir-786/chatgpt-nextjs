@@ -144,10 +144,14 @@ export default function Home() {
           fontSize: "20px",
           fontWeight: 600,
           display: "flex",
+          flexDirection: "column",
+          alignItems: "end",
           justifyContent: "flex-end",
         }}
       >
         Developed By Mubashir Raza
+        <br />
+        <a href="https://imagegpt-by-mubashir.netlify.app">Go To Image Generator GPT</a>
       </div>
     </>
   );
